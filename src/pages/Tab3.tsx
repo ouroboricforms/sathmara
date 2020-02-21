@@ -17,7 +17,7 @@ const Tab2: React.FC = () => {
         <IonToolbar color="primary">
           <IonTitle>Services</IonTitle>
         </IonToolbar>
-        <Fab></Fab>
+        <Fab />
       </IonHeader>
       <IonContent>
         <div className="container">

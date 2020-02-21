@@ -4,26 +4,24 @@ import { FacebookProvider, EmbeddedPost } from "react-facebook";
 export default class FacebookPost extends Component {
   render() {
     return (
-      <FacebookProvider appId="1">
-        <EmbeddedPost
-          href="https://www.facebook.com/pg/Sathmara/posts/?ref=page_internal"
-          width="700"
-        />
-      </FacebookProvider>
+      <div
+        class="fb-page"
+        data-href="https://www.facebook.com/sathmara"
+        data-tabs="timeline"
+        data-width="500px"
+        data-height="610px"
+        data-small-header="false"
+        data-adapt-container-width="true"
+        data-hide-cover="true"
+        data-show-facepile="false"
+      >
+        <blockquote
+          cite="https://www.facebook.com/sathmara"
+          class="fb-xfbml-parse-ignore"
+        >
+          <a href="https://www.facebook.com/sathmara">Sathmara</a>
+        </blockquote>
+      </div>
     );
   }
 }
-
-/*tsx code
-const FacebookPost = () => {
-  return (
-    <FacebookProvider appId="228713168293343">
-      <EmbeddedPost
-        href="https://www.facebook.com/pg/Sathmara/posts/?ref=page_internal"
-        width="700"
-      />
-    </FacebookProvider>
-  );
-};
-export default FacebookPost;
-*/

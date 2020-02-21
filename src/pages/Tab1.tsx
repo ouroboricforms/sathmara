@@ -6,7 +6,6 @@ import {
   IonTitle,
   IonToolbar
 } from "@ionic/react";
-import ExploreContainer from "../components/ExploreContainer";
 import FacebookPost from "../components/FacebookPost";
 
 const Tab1: React.FC = () => {
@@ -22,7 +21,7 @@ const Tab1: React.FC = () => {
           <p>
             <h1>The Latest Happenings</h1>
           </p>
-          <FacebookPost></FacebookPost>
+          <FacebookPost />
         </div>
       </IonContent>
     </IonPage>
