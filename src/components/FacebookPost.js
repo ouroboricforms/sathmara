@@ -4,7 +4,7 @@ import { FacebookProvider, EmbeddedPost } from "react-facebook";
 export default class FacebookPost extends Component {
   render() {
     return (
-      <FacebookProvider appId="228713168293343">
+      <FacebookProvider appId="1346235042234128">
         <EmbeddedPost
           href="https://www.facebook.com/pg/Sathmara/posts/?ref=page_internal"
           width="700"
