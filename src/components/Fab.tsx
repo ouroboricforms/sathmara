@@ -1,29 +1,20 @@
 import React from "react";
-import {
-  IonContent,
-  IonFab,
-  IonFabButton,
-  IonIcon,
-  IonFabList,
-  IonButton,
-  IonHeader
-} from "@ionic/react";
-import { add, logoFacebook, logoTwitter } from "ionicons/icons";
+import { IonFab, IonFabButton, IonIcon, IonFabList } from "@ionic/react";
+import { add, logoFacebook, logoInstagram } from "ionicons/icons";
+import "./Fab.css";
 
 export const Fab: React.FC = () => (
-  <IonContent>
-    <IonFab horizontal="end" vertical="top" slot="fixed" edge>
-      <IonFabButton>
-        <IonIcon icon={add} color="primary-contrast"></IonIcon>
+  <IonFab horizontal="end" vertical="center" slot="fixed" edge>
+    <IonFabButton>
+      <IonIcon icon={add} color="primary-contrast"></IonIcon>
+    </IonFabButton>
+    <IonFabList side="start">
+      <IonFabButton href="http://www.facebook.com/Sathmara">
+        <IonIcon icon={logoFacebook} color="primary"></IonIcon>
       </IonFabButton>
-      <IonFabList side="start">
-        <IonFabButton href="http://www.facebook.com">
-          <IonIcon icon={logoFacebook} color="primary"></IonIcon>
-        </IonFabButton>
-        <IonFabButton>
-          <IonIcon icon={logoTwitter} color="primary"></IonIcon>
-        </IonFabButton>
-      </IonFabList>
-    </IonFab>
-  </IonContent>
+      <IonFabButton href="http://www.instagram.com/Sathmara.official">
+        <IonIcon icon={logoInstagram} color="primary"></IonIcon>
+      </IonFabButton>
+    </IonFabList>
+  </IonFab>
 );

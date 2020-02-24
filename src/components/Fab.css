@@ -1,0 +1,7 @@
+ion-fab-button {
+  --box-shadow: none;
+}
+ion-fab-button:after {
+  --background: green;
+  border: 1px green solid;
+}

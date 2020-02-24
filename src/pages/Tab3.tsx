@@ -70,7 +70,9 @@ const Tab2: React.FC = () => {
             you an idea of the scope of the project and an estimate of overall
             cost.
             <br />
-            <a>Click here for a list of basic alteration prices.</a>
+            <a href="http://www.facebook.com">
+              Click here for a list of basic alteration prices.
+            </a>
           </p>
           <p>Embroidery</p>
           <p>
@@ -81,7 +83,9 @@ const Tab2: React.FC = () => {
             monogramming, lettering, and patches (Sew-on or Iron-on). I can also
             do metallic thread, 3D puff, applique and so much more.
             <br />
-            <a>Click here for a list of general pricing on embroidery.</a>
+            <a href="http://www.facebook.com">
+              Click here for a list of general pricing on embroidery.
+            </a>
           </p>
           <p>Printing</p>
           <p>
@@ -95,7 +99,9 @@ const Tab2: React.FC = () => {
             discuss your specific design needs with you and recommend which
             option I think will fir your project best.
             <br />
-            <a>Click here for a list of general pricing for prints.</a>
+            <a href="http://www.facebook.com">
+              Click here for a list of general pricing for prints.
+            </a>
           </p>
           <p>Fashion Styling and Advice</p>
           <p>

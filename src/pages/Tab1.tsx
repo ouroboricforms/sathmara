@@ -18,9 +18,6 @@ const Tab1: React.FC = () => {
       </IonHeader>
       <IonContent>
         <div className="container">
-          <p>
-            <h1>The Latest Happenings</h1>
-          </p>
           <FacebookPost />
         </div>
       </IonContent>
