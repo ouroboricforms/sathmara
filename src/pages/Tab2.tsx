@@ -8,6 +8,7 @@ import {
   IonButton
 } from "@ionic/react";
 import "./Tab2.css";
+import { Fab } from "../components/Fab";
 
 const Tab2: React.FC = () => {
   return (
@@ -16,9 +17,11 @@ const Tab2: React.FC = () => {
         <IonToolbar color="primary">
           <IonTitle>About the Artist</IonTitle>
         </IonToolbar>
+        <Fab />
       </IonHeader>
       <IonContent>
         <div className="container">
+          <h1>stuff</h1>
           <p>
             Sathmara is a moniker that I have chosen for myself, much as a
             writer chooses a pen name. My birth name is Maria Gabriela Hernandez

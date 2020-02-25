@@ -7,17 +7,21 @@ import {
   IonToolbar
 } from "@ionic/react";
 import FacebookPost from "../components/FacebookPost";
+import "./Tab1.css";
+import { Fab } from "../components/Fab";
 
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
+      <IonHeader translucent>
         <IonToolbar class="toolbar" color="primary" mode="md">
           <IonTitle>Home</IonTitle>
         </IonToolbar>
+        <Fab />
       </IonHeader>
       <IonContent>
-        <div className="container">
+        <div className="container2">
+          <h1>Facebook</h1>
           <FacebookPost />
         </div>
       </IonContent>

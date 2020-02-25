@@ -4,7 +4,7 @@ import { add, logoFacebook, logoInstagram } from "ionicons/icons";
 import "./Fab.css";
 
 export const Fab: React.FC = () => (
-  <IonFab horizontal="end" vertical="center" slot="fixed" edge>
+  <IonFab horizontal="end" vertical="bottom" slot="fixed" edge>
     <IonFabButton>
       <IonIcon icon={add} color="primary-contrast"></IonIcon>
     </IonFabButton>

@@ -3,6 +3,11 @@
    * Dark Colors
    * -------------------------------------------
    */
+
+  h1 {
+    color: black;
+  }
+
   body {
     --ion-color-primary: #9834ff;
     --ion-color-primary-rgb: 152, 52, 255;

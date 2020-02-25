@@ -8,6 +8,7 @@ import {
 } from "@ionic/react";
 import ExploreContainer from "../components/ExploreContainer";
 import "./Tab5.css";
+import { Fab } from "../components/Fab";
 
 const Tab5: React.FC = () => {
   return (
@@ -16,13 +17,9 @@ const Tab5: React.FC = () => {
         <IonToolbar color="primary">
           <IonTitle>Tab 5</IonTitle>
         </IonToolbar>
+        <Fab />
       </IonHeader>
       <IonContent>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 5</IonTitle>
-          </IonToolbar>
-        </IonHeader>
         <ExploreContainer name="Tab 5 page" />
       </IonContent>
     </IonPage>

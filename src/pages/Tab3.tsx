@@ -21,6 +21,7 @@ const Tab2: React.FC = () => {
       </IonHeader>
       <IonContent>
         <div className="container">
+          <h1>stuff again</h1>
           <p>
             To put it simply, I’ll try my hand at just about anything involving
             fabric. If I haven’t mentioned anything about a project you’re
