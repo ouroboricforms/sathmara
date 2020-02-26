@@ -9,7 +9,7 @@ import {
 } from "@ionic/react";
 import "./Tab2.css";
 import { Fab } from "../components/Fab";
-
+import "@ionic/react/css/core.css";
 const Tab2: React.FC = () => {
   return (
     <IonPage>

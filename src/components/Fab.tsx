@@ -2,7 +2,7 @@ import React from "react";
 import { IonFab, IonFabButton, IonIcon, IonFabList } from "@ionic/react";
 import { add, logoFacebook, logoInstagram } from "ionicons/icons";
 import "./Fab.css";
-
+import "@ionic/react/css/core.css";
 export const Fab: React.FC = () => (
   <IonFab horizontal="end" vertical="bottom" slot="fixed" edge>
     <IonFabButton>

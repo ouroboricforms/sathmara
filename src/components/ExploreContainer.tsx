@@ -1,6 +1,6 @@
 import React from "react";
 import "./ExploreContainer.css";
-
+import "@ionic/react/css/core.css";
 interface ContainerProps {
   name: string;
 }

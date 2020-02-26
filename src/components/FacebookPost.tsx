@@ -1,5 +1,6 @@
 import React from "react";
 import "./FacebookPost.css";
+import "@ionic/react/css/core.css";
 
 const FacebookPost: React.FC = () => (
   <div
@@ -22,5 +23,4 @@ const FacebookPost: React.FC = () => (
     </blockquote>
   </div>
 );
-
 export default FacebookPost;

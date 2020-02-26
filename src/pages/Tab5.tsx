@@ -9,7 +9,7 @@ import {
 import ExploreContainer from "../components/ExploreContainer";
 import "./Tab5.css";
 import { Fab } from "../components/Fab";
-
+import "@ionic/react/css/core.css";
 const Tab5: React.FC = () => {
   return (
     <IonPage>
