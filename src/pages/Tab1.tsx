@@ -10,6 +10,7 @@ import FacebookPost from "../components/FacebookPost";
 import "./Tab1.css";
 import { Fab } from "../components/Fab";
 import "@ionic/react/css/core.css";
+
 const Tab1: React.FC = () => {
   return (
     <IonPage>
