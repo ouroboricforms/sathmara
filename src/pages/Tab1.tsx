@@ -14,13 +14,13 @@ import "@ionic/react/css/core.css";
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader translucent>
+      <IonHeader>
         <IonToolbar class="toolbar" color="primary" mode="md">
           <IonTitle>Home</IonTitle>
         </IonToolbar>
-        <Fab />
       </IonHeader>
       <IonContent>
+        <Fab />
         <div className="container2">
           <h1>Facebook</h1>
           <FacebookPost />
